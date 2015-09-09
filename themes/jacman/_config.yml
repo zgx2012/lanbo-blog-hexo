@@ -25,11 +25,11 @@ rss: /atom.xml ## RSS address.
 
 #### Image
 imglogo:
-  enable: true             ## display image logo true/false.
+  enable: false             ## display image logo true/false.
   src: img/logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
 favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.     
 apple_icon: img/jacman.jpg ## size:114px*114px,please put image into the theme folder `/jacman/source/img`.
-author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
+author_img: #img/author.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
 banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
 ### Theme Color 
 theme_color:
@@ -37,7 +37,7 @@ theme_color:
 
 # 代码高亮主题
 # available: default | night
-highlight_theme: default
+highlight_theme: night
 
 #### index post is expanding or not 
 index:
@@ -53,8 +53,8 @@ creative_commons: none
 
 #### Author information
 author:
-  intro_line1:  "Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
-  intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
+  intro_line1:  "" #"Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
+  intro_line2:  "" #"This is my blog,believe it or not."  ## the 2nd line
   weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
@@ -80,6 +80,7 @@ toc:
 links:
   码农圈: https://coderq.com,一个面向程序员交流分享的新一代社区
   Jark's Blog: http://wuchong.me
+  #ZGX@baidu: http://wenzhang.baidu.com/?from=ibaidu
 
 
 
