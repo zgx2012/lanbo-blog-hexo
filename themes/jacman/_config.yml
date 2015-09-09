@@ -41,7 +41,7 @@ highlight_theme: night
 
 #### index post is expanding or not 
 index:
-  expand: true           ## default is unexpanding,so you can only see the short description of each post.
+  expand: false           ## default is unexpanding,so you can only see the short description of each post.
   excerpt_link: Read More  
 
 close_aside: false  #close sidebar in post page if true
@@ -79,6 +79,7 @@ toc:
 #### Links
 links:
   码农圈: https://coderq.com,一个面向程序员交流分享的新一代社区
+  Zippera's Blog: http://zipperary.com
   Jark's Blog: http://wuchong.me
   #ZGX@baidu: http://wenzhang.baidu.com/?from=ibaidu
 
